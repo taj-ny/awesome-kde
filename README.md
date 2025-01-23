@@ -94,6 +94,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`juk`](https://apps.kde.org/juk) - yet another one music player
 - [`kget`](https://apps.kde.org/kget) - universal download manager
 - [`ktorrent`](https://apps.kde.org/ktorrent) - torrent client
+	- [`kplotting`](https://community.kde.org/Frameworks) - *"statistics plugin"*
 - [`plasmatube`](https://apps.kde.org/plasmatube) - frontend for YouTube
 - [`vvave`](https://apps.kde.org/vvave) - yet another one music player
 
