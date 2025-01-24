@@ -93,16 +93,16 @@ These are mostly applications that have been in the KDE application catalog for 
 
 ### 📽️ Multimedia / 💾 Downloads
 
-- [`amarok`](https://apps.kde.org/amarok)<sup>AUR</sup> - music player
+- [`amarok`](https://apps.kde.org/amarok)<sup>[AUR](https://aur.archlinux.org/packages/amarok)</sup> - music player
 - [`audiotube`](https://apps.kde.org/audiotube) - YouTube Music player
-- [`caffeine`](https://apps.kde.org/kaffeine)<sup>AUR</sup> - media player
-- [`dragon`](https://apps.kde.org/dragonplayer) - simple multimedia player
+- [`kaffeine`](https://apps.kde.org/kaffeine) - media player
+- [`dragon`](https://apps.kde.org/dragonplayer) - meida player
 - [`elisa`](https://apps.kde.org/elisa) - music player. Supports radio streaming
 - [`haruna`](https://apps.kde.org/haruna) - I call it [mpv](https://mpv.io) on steroids
 - [`juk`](https://apps.kde.org/juk) - yet another one music player
 - [`kget`](https://apps.kde.org/kget) - universal download manager
 - [`ktorrent`](https://apps.kde.org/ktorrent) - torrent client
-	- [`kplotting`](https://community.kde.org/Frameworks) - *"statistics plugin"*
+	- [`kplotting`](https://community.kde.org/Frameworks) - *"statistics plugin"* for [`ktorrent`](https://apps.kde.org/ktorrent)
 - [`plasmatube`](https://apps.kde.org/plasmatube) - frontend for YouTube
 - [`vvave`](https://apps.kde.org/vvave) - yet another one music player
 
@@ -118,7 +118,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`kcolorchooser`](https://apps.kde.org/kcolorchooser) - simple color picker
 - [`kdenlive`](https://apps.kde.org/kdenlive) - powerful video editor
 - [`kile`](https://apps.kde.org/kile) - [LaTex](https://en.wikipedia.org/wiki/LaTeX) editor
-- [`klevernotes`](https://apps.kde.org/klevernotes)<sup>AUR</sup> - note taking app
+- [`klevernotes`](https://apps.kde.org/klevernotes)<sup>[AUR](https://aur.archlinux.org/packages/klevernotes)</sup> - note taking app
 - [`kolourpaint`](https://apps.kde.org/kolourpaint) - paint app, similiar to Windows's one
 - [`okular`](https://apps.kde.org/okular) - PDF reader on steroids
 - [`subtitlecomposer`](https://apps.kde.org/subtitlecomposer) - subtitle editor
@@ -132,30 +132,30 @@ These are mostly applications that have been in the KDE application catalog for 
 
 ### 💫 Other
 
-- [`alpaka`](https://apps.kde.org/alpaka)<sup>AUR</sup> - GUI frontend for [Ollama](https://ollama.com). **Note**: still in development
+- [`alpaka`](https://apps.kde.org/alpaka)<sup>[AUR](https://aur.archlinux.org/packages/alpaka-git)</sup> - GUI frontend for [Ollama](https://ollama.com). **Note**: still in development
 - [`kclock`](https://apps.kde.org/kget) - simple clock app for KDE Plasma / Plasma Mobile
 - [`kmousetool`](https://apps.kde.org/kmousetool) - mouse auto clicker
 - [`kweather`](https://apps.kde.org/kweather) - weather app. Initially designed for [Plasma Mobile](https://plasma-mobile.org), but can be used in Plasma Desktop
-- [`nota`](https://apps.kde.org/nota)<sup>AUR</sup> - simple text editor for KDE Plasma / [Plasma Mobile](https://plasma-mobile.org)
+- [`nota`](https://apps.kde.org/nota)<sup>[AUR](https://aur.archlinux.org/packages/nota)</sup> - simple text editor for KDE Plasma / [Plasma Mobile](https://plasma-mobile.org)
 - [`kdialog`](https://develop.kde.org/docs/administration/kdialog) - [`zenity`](https://en.wikipedia.org/wiki/Zenity) & [`yad`](https://github.com/v1cont/yad)
 
 ## 🧑‍🤝‍🧑 Third-party applications that were made (not) for KDE 
 
-- [`kde-material-you-colors`](https://github.com/luisbocanegra/kde-material-you-colors)<sup>AUR</sup> - Android's Material You color palette for KDE
+- [`kde-material-you-colors`](https://github.com/luisbocanegra/kde-material-you-colors)<sup>[AUR](https://aur.archlinux.org/packages/kde-material-you-colors)</sup> - Android's Material You color palette for KDE
     - **How To**: *Open Tray Menu > KDE Material You Colors*
     - **How To**: *Right click on the desktop > Add or Manage Widgets > KDE Material You Colors*
-- [`koi`](https://github.com/baduhai/Koi)<sup>AUR</sup> - auto light / dark mode switcher. [^2]
-- [`media-downloader`](https://github.com/mhogomchungu/media-downloader)<sup>AUR</sup>[^3] - a universal app for downloading media from a popular sites such as YouTube and others
-- [`plasma6-applets-panel-colorizer`](https://github.com/luisbocanegra/plasma-panel-colorizer)<sup>AUR</sup> - customize your panel as you want
-- [`plasma6-applets-wallpaper-effects`](https://github.com/luisbocanegra/plasma-wallpaper-effects)<sup>AUR</sup>- various wallpaper effects
-- [`plasma6-wallpapers-blurredwallpaper`](https://github.com/bouteillerAlan/blurredwallpaper)<sup>AUR</sup> - blurs wallpaper when active window is present
+- [`koi`](https://github.com/baduhai/Koi)<sup>[AUR](https://aur.archlinux.org/packages/koi)</sup> - auto light / dark mode switcher. [^2]
+- [`media-downloader`](https://github.com/mhogomchungu/media-downloader)<sup>[AUR](https://aur.archlinux.org/packages/media-downloader)  [^3]</sup> - a universal app for downloading media from a popular sites such as YouTube and others
+- [`plasma6-applets-panel-colorizer`](https://github.com/luisbocanegra/plasma-panel-colorizer)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-panel-colorizer)</sup> - customize your panel as you want
+- [`plasma6-applets-wallpaper-effects`](https://github.com/luisbocanegra/plasma-wallpaper-effects)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-wallpaper-effects)</sup> - various wallpaper effects
+- [`plasma6-wallpapers-blurredwallpaper`](https://github.com/bouteillerAlan/blurredwallpaper)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-wallpapers-blurredwallpaper)</sup> - blurs wallpaper when active window is present
     - **How To**: *Right Click on the Desktop > Desktop and Wallpaper > \*choose "Blurred Wallpaper"\* wallpaper plugin > Set blur radius and click "Apply"*
-- [`plasma6-wallpapers-wallpaper-engine-git`](https://github.com/catsout/wallpaper-engine-kde-plugin)<sup>AUR</sup> - [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine) plugin for KDE Plasma
+- [`plasma6-wallpapers-wallpaper-engine-git`](https://github.com/catsout/wallpaper-engine-kde-plugin)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-wallpapers-wallpaper-engine-git)</sup> - [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine) plugin for KDE Plasma
     - **How To**: *Install Wallpaper Engine from Steam, open it and download some wallpapers > Right Click on the Desktop > Desktop and Wallpaper > \*choose wallpaper engine plugin\* > Set Default Steam Folder > apply*
-- [`protonup-qt`](https://github.com/DavidoTek/ProtonUp-Qt)<sup>AUR</sup>[^3] - install and manage [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom), [Steam Proton](<https://en.wikipedia.org/wiki/Proton_(software)>), [Lutris](https://github.com/lutris/lutris) runners and much more
+- [`protonup-qt`](https://github.com/DavidoTek/ProtonUp-Qt)<sup>[AUR](https://aur.archlinux.org/packages/protonup-qt)  [^3]</sup> - install and manage [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom), [Steam Proton](<https://en.wikipedia.org/wiki/Proton_(software)>), [Lutris](https://github.com/lutris/lutris) runners and much more
 - [`qbittorrent`](https://github.com/qbittorrent/qBittorrent) - cmon man, you know what is this!
 - [`qtpass`](https://github.com/IJHack/QtPass) - a QT wrapper for [pass](https://www.passwordstore.org)
-- [`yin-yang`](https://github.com/oskarsh/Yin-Yang)<sup>AUR</sup> - auto light / dark mode switcher[^2]
+- [`yin-yang`](https://github.com/oskarsh/Yin-Yang)<sup>[AUR](https://aur.archlinux.org/packages/yin-yang)</sup> - auto light / dark mode switcher[^2]
 
 ## 🛑 Apps you might want to avoid
 
@@ -170,4 +170,4 @@ Apps that you might want to install, but are pointless because Plasma already ha
 
 [^1]: Right after installation enable the `power-profiles-daemon` service. `power-profiles-daemon` works only with pstate drivers, so if your machine doesn't support this, then use `tuned` and `tuned-ppd` instead: `systemctl enable --now tuned tuned-ppd`.
 [^2]: The KDE team wanted to implement this as part of KDE, but apparently we won't see it until at least the release of Plasma 7. [Link](https://discuss.kde.org/t/auto-dark-mode-sunrise-sunset/2415/2).
-[^3]: Available in the CachyOS repositories.
+[^3]: Available in the [CachyOS](https://cachyos.org) repositories.
