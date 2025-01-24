@@ -98,6 +98,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`kdeconnect`](https://kdeconnect.kde.org) - seamlessly integrates your phone with Plasma
     - `sshfs` - allows to browse phone's filesystem
     - `qt6-tools` - runcommand plugin settings
+    - `krfb` - use remote device as virtual monitor
 - [`kfind`](https://apps.kde.org/kfind) - simple but fast file searching
     - `mlocate`<sup>(orphaed?)</sup> - search using mlocate index
 - [`kgpg`](https://apps.kde.org/kgpg) - GPG keys management
