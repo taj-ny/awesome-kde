@@ -216,6 +216,8 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`qbittorrent`](https://github.com/qbittorrent/qBittorrent) - cmon man, you know what is this!
 - [`qtpass`](https://github.com/IJHack/QtPass) - a QT wrapper for [pass](https://www.passwordstore.org)
 - [`yin-yang`](https://github.com/oskarsh/Yin-Yang)<sup>[AUR](https://aur.archlinux.org/packages/yin-yang)</sup> - auto light / dark mode switcher[^1]
+- [`qpwgraph`](https://gitlab.freedesktop.org/rncbc/qpwgraph) - [PipeWire](https://gitlab.freedesktop.org/rncbc/qpwgraph) GUI frontend
+- [`jamesdsp`](https://github.com/Audio4Linux/JDSP4Linux) - [EasyEffects](https://github.com/wwmm/easyeffects) alternative
 
 ## 🛑 Apps you might want to avoid
 
