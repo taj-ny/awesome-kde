@@ -20,6 +20,7 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
 
 - [`svgpart`](https://apps.kde.org/svgpart) - allows [Ark](https://apps.kde.org/ark), [Kate](https://apps.kde.org/kate), [KDevelop](https://apps.kde.org/kdevelop), [Konqueror](https://apps.kde.org/konqueror) and [Krusader](https://apps.kde.org/krusader) to render `.svg` content without opening third-party applications
 - [`markdownpart`](https://apps.kde.org/markdownpart) - allows [Ark](https://apps.kde.org/ark), [Kate](https://apps.kde.org/kate), [KDevelop](https://apps.kde.org/kdevelop), [Konqueror](https://apps.kde.org/konqueror) and [Krusader](https://apps.kde.org/krusader) to render markdown content without opening third-party applications
+	- **How to enable in Kate**: *Settings > Plugins > Document Preview*
 - `baloo-widgets` - provides extra metadata in [Dolphin’s](https://apps.kde.org/dolphin) Information Panel (requires Baloo file indexing)
 - `dolphin-plugins` - adds [Git](https://git-scm.com), [Bazaar](https://www.gnu.org/software/bazaar), [Mercurial](https://www.mercurial-scm.org), and ISO mounting support to [Dolphin](https://apps.kde.org/dolphin)
 - `kde-inotify-survey` - a diagnostic tool to check the availability and limits of inotify, a Linux kernel feature for monitoring filesystem events. [Explanation](https://github.com/KDE/kde-inotify-survey)
