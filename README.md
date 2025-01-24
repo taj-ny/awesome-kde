@@ -202,6 +202,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`kde-material-you-colors`](https://github.com/luisbocanegra/kde-material-you-colors)<sup>[AUR](https://aur.archlinux.org/packages/kde-material-you-colors)</sup> - Android's Material You color palette for KDE
     - **How To**: *Open Tray Menu > KDE Material You Colors*
     - **How To**: *Right click on the desktop > Add or Manage Widgets > KDE Material You Colors*
+- [`kando`](https://github.com/kando-menu/kando)<sup>[AUR](https://aur.archlinux.org/packages/kando-bin)</sup> - a nice looking cross-platform pie menu
 - [`koi`](https://github.com/baduhai/Koi)<sup>[AUR](https://aur.archlinux.org/packages/koi)</sup> - auto light / dark mode switcher. [^1]
 - [`media-downloader`](https://github.com/mhogomchungu/media-downloader)<sup>[AUR](https://aur.archlinux.org/packages/media-downloader)  [^2]</sup> - a universal app for downloading media from a popular sites such as YouTube and others
 - [`plasma6-applets-panel-colorizer`](https://github.com/luisbocanegra/plasma-panel-colorizer)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-panel-colorizer)</sup> - customize your panel as you want
@@ -218,6 +219,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`yin-yang`](https://github.com/oskarsh/Yin-Yang)<sup>[AUR](https://aur.archlinux.org/packages/yin-yang)</sup> - auto light / dark mode switcher[^1]
 - [`qpwgraph`](https://gitlab.freedesktop.org/rncbc/qpwgraph) - [PipeWire](https://gitlab.freedesktop.org/rncbc/qpwgraph) GUI frontend
 - [`jamesdsp`](https://github.com/Audio4Linux/JDSP4Linux) - [EasyEffects](https://github.com/wwmm/easyeffects) alternative
+- [`qownnotes`](https://www.qownnotes.org) - notes app
 
 ## 🛑 Apps you might want to avoid
 
