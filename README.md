@@ -194,7 +194,7 @@ These are mostly applications that have been in the KDE application catalog for 
 
 ### ⚒️ Development
 
-- `kate` <sup>([link](https://apps.kde.org/kate))✔️</sup> & `kwrite` <sup>([link](https://apps.kde.org/kwrite))✔️</sup> — *"Advanced Text Editor"*. C <sup>([link])an be used in development | Kwrite: 👍👍👍
+- `kate` <sup>([link](https://apps.kde.org/kate))✔️</sup> & `kwrite` <sup>([link](https://apps.kde.org/kwrite))✔️</sup> — *"Advanced Text Editor"*. Can be used in development | Kwrite: 👍👍👍
     - `clang`<sup><sup>⚙️</sup></sup> — C & C++ LSP support
     - `git`<sup><sup>⚙️</sup></sup> — git-blame support
     - `python-lsp-server`<sup><sup>⚙️</sup></sup> — self-explanatory
