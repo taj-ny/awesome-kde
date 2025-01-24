@@ -90,12 +90,21 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`filelight`](https://apps.kde.org/filelight) - visual representation of filesystem usage
 - [`isoimagewriter`](https://apps.kde.org/isoimagewriter) - `.iso` image writer. Also try [`ventoy`](https://github.com/ventoy/Ventoy)
 - [`kdeconnect`](https://kdeconnect.kde.org) - seamlessly integrates your phone with Plasma
+    - `sshfs` - allows to browse phone's filesystem
+    - `qt6-tools` - runcommand plugin settings
 - [`kfind`](https://apps.kde.org/kfind) - simple but fast file searching
+    - `mlocate`<sup>(orphaed?)</sup> - search using mlocate index
 - [`kgpg`](https://apps.kde.org/kgpg) - GPG keys management
-- [`kjournald`](https://invent.kde.org/system/kjournald) - view and manage systemd's logs
-- [`ksystemlog`](https://apps.kde.org/ksystemlog) - kernel, xorg and other system's logs
+- [`kjournald`](https://invent.kde.org/system/kjournald) - view and manage systemd logs
+- [`ksystemlog`](https://apps.kde.org/ksystemlog) - kernel, xorg and other system logs
 - [`kwalletmanager`](https://apps.kde.org/kwalletmanager5) - password management
 - [`partitionmanager`](https://apps.kde.org/partitionmanager) - *"[GParted](https://gparted.org) by KDE"*
+    - `dosfstools`<sup>(optional)</sup> - FAT16 & FAT32 support
+    - `jfsutils`<sup>(optional)</sup> - jfs support
+    - `btrfs-progs`<sup>(optional)</sup> - BTRFS support
+    - `exfatprogs`<sup>(optional)</sup> - exFAT support
+    - `ntfs-3g`<sup>(optional)</sup> - NTFS support
+    - `xfsprogs`<sup>(optional)</sup> - XFS support
 - [`yakuake`](https://apps.kde.org/yakuake) - drop-down terminal
 
 ### 📽️ Multimedia / 💾 Downloads
@@ -106,10 +115,12 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`dragon`](https://apps.kde.org/dragonplayer) - meida player
 - [`elisa`](https://apps.kde.org/elisa) - music player. Supports radio streaming
 - [`haruna`](https://apps.kde.org/haruna) - I call it [mpv](https://mpv.io) on steroids
+    - [`yt-dlp`](https://github.com/yt-dlp/yt-dlp)<sup>(optional)</sup> - YouTube support
 - [`juk`](https://apps.kde.org/juk) - yet another one music player
 - [`kget`](https://apps.kde.org/kget) - universal download manager
+    - `libktorrent`<sup>(optional)</sup> - torrent support
 - [`ktorrent`](https://apps.kde.org/ktorrent) - torrent client
-	- [`kplotting`](https://community.kde.org/Frameworks) - *"statistics plugin"* for [`ktorrent`](https://apps.kde.org/ktorrent)
+	- [`kplotting`](https://community.kde.org/Frameworks)<sup>(optional)</sup> - *"statistics plugin"* for [`ktorrent`](https://apps.kde.org/ktorrent)
 - [`plasmatube`](https://apps.kde.org/plasmatube) - frontend for YouTube
 - [`vvave`](https://apps.kde.org/vvave) - yet another one music player
 
@@ -117,23 +128,63 @@ These are mostly applications that have been in the KDE application catalog for 
 
 - [`arianna`](https://apps.kde.org/arianna) - ebook reader
 - [`calligra`](https://apps.kde.org/calligra) - all in one office suite
+    - `libetonyek`<sup>(optional)</sup> - Apple Keynote import filter
+    - `libvisio`<sup>(optional)</sup> - Microsoft Visio import filter
+    - `libwpg`<sup>(optional)</sup> - Corel WordPerfect Graphics image importer
+    - `libwps`<sup>(optional)</sup> - Microsoft Works file word processor format importer
+    - `poppler`<sup>(optional)</sup> - PDF to SVG filter
+    - `pstoedit`<sup>(optional)</sup> - EPS to SVG filter
+    - `qt6-webengine`<sup>(optional)</sup> - Braindump web shape
 - [`francis`](https://apps.kde.org/francis) - pomodoro timer
 - [`ghostwriter`](https://apps.kde.org/ghostwriter) - markdown note-taking app
+    - `cmark`<sup>(optional)</sup> - CommonMark support
+    - `mathjax`<sup>(optional)</sup> - formula rendering in live preview
+    - `pandoc`<sup>(optional)</sup> - Pandoc support
 - [`gwenview`](https://apps.kde.org/gwenview) - fast image viewer with ability to edit images
+    - `kamera`<sup>(optional)</sup> - import images from cameras
+    - `kimageformats` - mentioned above
+    - `qt6-imageformats` - mentioned above
 - [`kalk`](https://apps.kde.org/kalk) - calculator
 - [`kcalc`](https://apps.kde.org/kcalc) - calculator as well
 - [`kcolorchooser`](https://apps.kde.org/kcolorchooser) - simple color picker
 - [`kdenlive`](https://apps.kde.org/kdenlive) - powerful video editor
+    - `bigsh0t`<sup>(optional)</sup> - VR360 effects
+    - `dvgrab`<sup>(optional)</sup> - firewire capture
+    - `kimageformats` - mentioned above
+    - `mediainfo`<sup>(optional)</sup> - technical clip information
+    - `noise-suppression-for-voice`<sup>(optional)</sup> - self-explanatory
+    - `opencv`<sup>(optional)</sup> - motion tracking
+    - `opentimelineio`<sup>(optional)</sup> - timeline import & export
+    - `python-openai-whisper` & `python-srt_equalizer`<sup>(optional)</sup> - OpenAI's stt model
+    - `python-vosk`<sup>(optional)</sup> - VOSK stt model
+    - `recordmydesktop`<sup>(optional)</sup> - screen capture
 - [`kile`](https://apps.kde.org/kile) - [LaTex](https://en.wikipedia.org/wiki/LaTeX) editor
 - [`klevernotes`](https://apps.kde.org/klevernotes)<sup>[AUR](https://aur.archlinux.org/packages/klevernotes)</sup> - note taking app
 - [`kolourpaint`](https://apps.kde.org/kolourpaint) - paint app, similiar to Windows's one
 - [`okular`](https://apps.kde.org/okular) - PDF reader on steroids
+     - `ebook-tools`<sup>(optional)</sup> - mobi and epub support
+     - `kdegraphics-mobipocket`<sup>(optional)</sup> - mobi support
+     - `unarchiver` **or** `unrar`<sup>(optional)</sup> - Comic Book support
 - [`subtitlecomposer`](https://apps.kde.org/subtitlecomposer) - subtitle editor
 
 ### ⚒️ Development
 
 - [`kate`](https://apps.kde.org/kate) / [`kwrite`](https://apps.kde.org/kwrite)<sup>(installs with kate)</sup> - *"Advanced Text Editor"*. Can be used in development
+    - `clang`<sup>(optional)</sup> - C & C++ LSP support
+    - `git`<sup>(optional)</sup> - git-blame support
+    - `python-lsp-server`<sup>(optional)</sup> - self-explanatory
+    - `qt6-declarative`<sup>(optional)</sup> - RBQL plugin
+    - `qtkeychain-qt6`<sup>(optional)</sup> - SQL plugin
+    - `rust`<sup>(optional)</sup> - rust LSP support
+    - `texlab`<sup>(optional)</sup> - LaTex support
 - [`kdevelop`](https://apps.kde.org/kdevelop) - IDE
+    - `apr` & `apr-util` & `subversion`<sup>(optional)</sup> - SVN support
+    - `gdb`<sup>(optional)</sup> - GNU debugger
+    - `heaptrack`<sup>(optional)</sup> - memory profiler
+    - `cppcheck`<sup>(optional)</sup> - code analizer
+    - `meson`<sup>(optional)</sup> - meson integration
+    - `purpose`<sup>(optional)</sup> - patch review plugin
+    - `qt6-doc`<sup>(optional)</sup> - QT dcumentation integration
 - [`kompare`](https://apps.kde.org/kompare) - diff / patch frontend
 - [`okteta`](https://apps.kde.org/okteta) - HEX editor
 
@@ -154,7 +205,9 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`koi`](https://github.com/baduhai/Koi)<sup>[AUR](https://aur.archlinux.org/packages/koi)</sup> - auto light / dark mode switcher. [^1]
 - [`media-downloader`](https://github.com/mhogomchungu/media-downloader)<sup>[AUR](https://aur.archlinux.org/packages/media-downloader)  [^2]</sup> - a universal app for downloading media from a popular sites such as YouTube and others
 - [`plasma6-applets-panel-colorizer`](https://github.com/luisbocanegra/plasma-panel-colorizer)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-panel-colorizer)</sup> - customize your panel as you want
+    - **How To**: *Right Click on the Desktop > Add or Manage Widgets > drag the widget to one of your panels > right click on the widget > configure*
 - [`plasma6-applets-wallpaper-effects`](https://github.com/luisbocanegra/plasma-wallpaper-effects)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-wallpaper-effects)</sup> - various wallpaper effects
+    - **How To**: *Right Click on the Desktop > Add or Manage Widgets > select the widget and drag it to the desktop*
 - [`plasma6-wallpapers-blurredwallpaper`](https://github.com/bouteillerAlan/blurredwallpaper)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-wallpapers-blurredwallpaper)</sup> - blurs wallpaper when active window is present
     - **How To**: *Right Click on the Desktop > Desktop and Wallpaper > \*choose "Blurred Wallpaper"\* wallpaper plugin > Set blur radius and click "Apply"*
 - [`plasma6-wallpapers-wallpaper-engine-git`](https://github.com/catsout/wallpaper-engine-kde-plugin)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-wallpapers-wallpaper-engine-git)</sup> - [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine) plugin for KDE Plasma
