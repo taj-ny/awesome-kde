@@ -1,3 +1,4 @@
+
 # Essential Packages For Complete KDE Plasma Experience
 
 ![Screenshot_20250124_182446](https://github.com/user-attachments/assets/4d22b92e-5935-468c-8b8b-fdf2ed4ced17)
@@ -203,6 +204,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`kweather`](https://apps.kde.org/kweather) - weather app. Initially designed for [Plasma Mobile](https://plasma-mobile.org), but can be used in Plasma Desktop
 - [`nota`](https://apps.kde.org/nota)<sup>[AUR](https://aur.archlinux.org/packages/nota)</sup> - simple text editor for KDE Plasma / [Plasma Mobile](https://plasma-mobile.org)
 - [`kdialog`](https://develop.kde.org/docs/administration/kdialog) - [`zenity`](https://en.wikipedia.org/wiki/Zenity) & [`yad`](https://github.com/v1cont/yad) alternative
+- [`khelpcenter`](https://apps.kde.org/khelpcenter) - offline (F1) documentation for KDE components
 
 ## 🧑‍🤝‍🧑 Third-party applications that were made (not) for KDE 
 
