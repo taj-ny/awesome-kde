@@ -134,12 +134,16 @@ These are mostly applications that have been in the KDE application catalog for 
 ## 🧑‍🤝‍🧑 Third-party applications that were made (not) for KDE 
 
 - [`kde-material-you-colors`](https://github.com/luisbocanegra/kde-material-you-colors)<sup>AUR</sup> - Android's Material You color palette for KDE
+    - **How To**: *Open Tray Menu > KDE Material You Colors*
+    - **How To**: *Right click on the desktop > Add or Manage Widgets > KDE Material You Colors*
 - [`koi`](https://github.com/baduhai/Koi)<sup>AUR</sup> - auto light / dark mode switcher. [^2]
 - [`media-downloader`](https://github.com/mhogomchungu/media-downloader)<sup>AUR</sup>[^3] - a universal app for downloading media from a popular sites such as YouTube and others
 - [`plasma6-applets-panel-colorizer`](https://github.com/luisbocanegra/plasma-panel-colorizer)<sup>AUR</sup> - customize your panel as you want
 - [`plasma6-applets-wallpaper-effects`](https://github.com/luisbocanegra/plasma-wallpaper-effects)<sup>AUR</sup>- various wallpaper effects
 - [`plasma6-wallpapers-blurredwallpaper`](https://github.com/bouteillerAlan/blurredwallpaper)<sup>AUR</sup> - blurs wallpaper when active window is present
+    - **How To**: *Right Click on the Desktop > Desktop and Wallpaper > \*choose "Blurred Wallpaper"\* wallpaper plugin > Set blur radius and click "Apply"*
 - [`plasma6-wallpapers-wallpaper-engine-git`](https://github.com/catsout/wallpaper-engine-kde-plugin)<sup>AUR</sup> - [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine) plugin for KDE Plasma
+    - **How To**: *Install Wallpaper Engine from Steam, open it and download some wallpapers > Right Click on the Desktop > Desktop and Wallpaper > \*choose wallpaper engine plugin\* > Set Default Steam Folder > apply*
 - [`protonup-qt`](https://github.com/DavidoTek/ProtonUp-Qt)<sup>AUR</sup>[^3] - install and manage [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom), [Steam Proton](<https://en.wikipedia.org/wiki/Proton_(software)>), [Lutris](https://github.com/lutris/lutris) runners and much more
 - [`qbittorrent`](https://github.com/qbittorrent/qBittorrent) - cmon man, you know what is this!
 - [`qtpass`](https://github.com/IJHack/QtPass) - a QT wrapper for [pass](https://www.passwordstore.org)
@@ -147,8 +151,14 @@ These are mostly applications that have been in the KDE application catalog for 
 
 ## 🛑 Apps you might want to avoid
 
-- [`kcolorchooser`](https://apps.kde.org/kcolorchooser) - color picker. **Reason**: Plasma's built-in applet
-- [`kmag`](https://apps.kde.org/kmag) - screen magnifier. **Reason**: Plasma's buit-in destop effect
+Apps that you might want to install, but are pointless because Plasma already has this functionality right out of the box.
+
+- [`kcolorchooser`](https://apps.kde.org/kcolorchooser) - color picker. 
+    - **Reason**: Plasma has a built-in widget that does the same thing
+    - **How To**: *Right Click on the taskbar > Add or Manage Widgets > Color Picker >  \*drag into the taskbar\* right click on the widget (applet) > Open Color Dialog*
+- [`kmag`](https://apps.kde.org/kmag) - screen magnifier. 
+    - **Reason**: Plasma has a built-in desktop effect that does the same thing in a more convenient way
+    - **How To**: *System Settings > Window Management > Desktop Effects > Zoom Effect*
 
 [^1]: Right after installation enable the `power-profiles-daemon` service. `power-profiles-daemon` works only with pstate drivers, so if your machine doesn't support this, then use `tuned` and `tuned-ppd` instead: `systemctl enable --now tuned tuned-ppd`.
 [^2]: The KDE team wanted to implement this as part of KDE, but apparently we won't see it until at least the release of Plasma 7. [Link](https://discuss.kde.org/t/auto-dark-mode-sunrise-sunset/2415/2).
