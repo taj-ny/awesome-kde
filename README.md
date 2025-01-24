@@ -14,6 +14,7 @@ Switching to KDE from GNOME, XFCE, or other environments? If you’ve fallen in 
 
 - [ ] Readability
 - [ ] More small but important details
+- [ ] Installation script for different distributions
 - [ ] You tell me
 
 #### Contribute
