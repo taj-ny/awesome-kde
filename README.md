@@ -42,6 +42,7 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
 - `xdg-desktop-portal-gtk`, `xsettingsd` - sync [GTK](https://en.wikipedia.org/wiki/GTK) font / theme settings with Plasma
 - `orca` - screen reader
 - `systemd-coredumpd` - crash handler
+- `cryfs` & `encfs` & `gocryptfs` - encryption algorithms for Plasma's Vault
 
 > [!WARNING]
 > The `power-profiles-daemon` works with the CPPC driver, which adjusts CPU frequencies differently than `acpi-cpufreq`. If your processor does not support CPPC (e.g. zen1 or some zen2 CPUs) you can install `tuned` and `tuned-ppd` as replacements for `power-profiles-daemon`. 
