@@ -1,6 +1,6 @@
 # Essential Packages For Complete KDE Plasma Experience
 
-![plasma](https://kde.org/announcements/plasma/6/6.2.0/fullscreen_with_apps.png)
+![Screenshot_20250124_182446](https://github.com/user-attachments/assets/4d22b92e-5935-468c-8b8b-fdf2ed4ced17)
 
 This list highlights KDE and KDE-adjacent applications likely to enhance your KDE Plasma experience. All package names are specific to Arch-based distributions, but links to each application’s homepage provide further details.
 
