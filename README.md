@@ -244,16 +244,20 @@ These are mostly applications that have been in the KDE application catalog for 
 - `kando` <sup>([link](https://github.com/kando-menu/kando)) <sup>[AUR](https://aur.archlinux.org/packages/kando-bin)</sup></sup> — a nice looking cross-platform pie menu
 - `kwin-effects-kinetic` <sup>([link](https://github.com/gurrgur/kwin-effects-kinetic)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-effects-kinetic)</sup></sup> — kinetic kwin effects | 👍👍👍
 
-### Standalone applications
+### 📚 Office / ⏰ Productivity / 📝 Work
+
+- `qtpass` <sup>([link](https://github.com/IJHack/QtPass))</sup> — a QT wrapper for [pass](https://www.passwordstore.org) | 👍👍👍
+- `qownnotes` <sup>([link](https://www.qownnotes.org)) <sup>[AUR](https://aur.archlinux.org/packages/qownnotes)</sup></sup> — notes app
+- `keepassxc` <sup>([link](https://keepassxc.org))</sup> — a passwords manager, works with [kdbx](https://keepass.info/help/kb/kdbx_4.html) format
+
+### 💫 Other
 
 - `koi` <sup>([link](https://github.com/baduhai/Koi)) <sup>[AUR](https://aur.archlinux.org/packages/koi)</sup></sup> — auto light / dark mode switcher. [^1] | 👍👍👍
 - `yin-yang` <sup>([link](https://github.com/oskarsh/Yin-Yang)) <sup>[AUR](https://aur.archlinux.org/packages/yin-yang)</sup></sup> — auto light / dark mode switcher [^1]
 - `protonup-qt` <sup>([link](https://github.com/DavidoTek/ProtonUp-Qt)) <sup>[AUR](https://aur.archlinux.org/packages/protonup-qt)</sup></sup> — install and manage [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom), [Steam Proton](<https://en.wikipedia.org/wiki/Proton_(software)>), [Lutris](https://github.com/lutris/lutris) runners and much more <sup>[^2]</sup>
 - `qbittorrent` <sup>([link](https://github.com/qbittorrent/qBittorrent))</sup> — cmon man, you know what is this! | 👍👍👍
-- `qtpass` <sup>([link](https://github.com/IJHack/QtPass))</sup> — a QT wrapper for [pass](https://www.passwordstore.org) | 👍👍👍
 - `qpwgraph` <sup>([link](https://gitlab.freedesktop.org/rncbc/qpwgraph))</sup> — a [PipeWire](https://gitlab.freedesktop.org/rncbc/qpwgraph) GUI frontend | 👍
 - `jamesdsp` <sup>([link](https://github.com/Audio4Linux/JDSP4Linux)) <sup>[AUR](https://aur.archlinux.org/packages/jamesdsp)</sup></sup> — an [EasyEffects](https://github.com/wwmm/easyeffects) alternative
-- `qownnotes` <sup>([link](https://www.qownnotes.org)) <sup>[AUR](https://aur.archlinux.org/packages/qownnotes)</sup></sup> — notes app
 - `media-downloader` <sup>([link](https://github.com/mhogomchungu/media-downloader)) <sup>[AUR](https://aur.archlinux.org/packages/media-downloader)</sup></sup> — a cross-platform app for downloading media from a popular sites such as YouTube and others | 👍👍👍
     - `aria2`<sup><sup>⚙️</sup></sup> - [aria2](https://github.com/aria2/aria2) backend
 
