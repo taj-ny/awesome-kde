@@ -43,14 +43,13 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
 - `orca` - screen reader
 - `systemd-coredumpd` - crash handler
 
-> [!warning] For `power-profiles-daemon` users
+> **[!warning]**
 > The `power-profiles-daemon` works with the CPPC driver, which adjusts CPU frequencies differently than `acpi-cpufreq`. If your processor does not support CPPC (e.g. zen1 or some zen2 CPUs) you can install `tuned` and `tuned-ppd` as replacements for `power-profiles-daemon`. 
 > Remember to enable the systemd service for both packages immediately after installation. Reboot is not needed
 > ```bash
 > sudo pacman -S tuned tuned-ppd
 > sudo systemctl enable --now tuned tuned-ppd
 > ```
-
 
 ### 🖼️ Thumbnailing plugins
 
@@ -59,7 +58,6 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
 - `kimageformats` - a KDE library that adds support for various image file formats, enabling viewing and processing in KDE applications. More info [here](https://api.kde.org/frameworks/kimageformats/html/index.html)
 - `icoutils` - thumbnails for Windows's executables across KDE apps
 - `qt{5,6}-imageformats` - provides support for formats like PNG, JPEG, GIF, and others in Qt6-based applications
-
 
 ### 💼 KDE PIM
 
