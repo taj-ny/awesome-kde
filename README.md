@@ -44,6 +44,8 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
 - `systemd-coredumpd` - crash handler
 - `cryfs` & `encfs` & `gocryptfs` - encryption algorithms for Plasma's Vault
 - `ufw` **or** `firewalld` - firewall support
+- `fwupd` - adds ability to update your device's firmware from [Discover](https://apps.kde.org/discover) or *Info Center*<sup>(installs by default in plasma)</sup>
+- `quota-tools` - applet for [Disk Quota](https://en.wikipedia.org/wiki/Disk_quota). You don't really need this
 
 > [!WARNING]
 > The `power-profiles-daemon` works with the CPPC driver, which adjusts CPU frequencies differently than `acpi-cpufreq`. If your processor does not support CPPC (e.g. zen1 or some zen2 CPUs) you can install `tuned` and `tuned-ppd` as replacements for `power-profiles-daemon`. 
@@ -207,6 +209,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`kando`](https://github.com/kando-menu/kando)<sup>[AUR](https://aur.archlinux.org/packages/kando-bin)</sup> - a nice looking cross-platform pie menu
 - [`koi`](https://github.com/baduhai/Koi)<sup>[AUR](https://aur.archlinux.org/packages/koi)</sup> - auto light / dark mode switcher. [^1]
 - [`media-downloader`](https://github.com/mhogomchungu/media-downloader)<sup>[AUR](https://aur.archlinux.org/packages/media-downloader)  [^2]</sup> - a universal app for downloading media from a popular sites such as YouTube and others
+    - `aria2`<sup>(optional)</sup> - aria2 backend
 - [`plasma6-applets-panel-colorizer`](https://github.com/luisbocanegra/plasma-panel-colorizer)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-panel-colorizer)</sup> - customize your panel as you want
     - **How To**: *Right Click on the Desktop > Add or Manage Widgets > drag the widget to one of your panels > right click on the widget > configure*
 - [`plasma6-applets-wallpaper-effects`](https://github.com/luisbocanegra/plasma-wallpaper-effects)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-wallpaper-effects)</sup> - various wallpaper effects
