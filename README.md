@@ -226,6 +226,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`qpwgraph`](https://gitlab.freedesktop.org/rncbc/qpwgraph) - [PipeWire](https://gitlab.freedesktop.org/rncbc/qpwgraph) GUI frontend
 - [`jamesdsp`](https://github.com/Audio4Linux/JDSP4Linux) - [EasyEffects](https://github.com/wwmm/easyeffects) alternative
 - [`qownnotes`](https://www.qownnotes.org) - notes app
+- [`kwin-effects-kinetic`](https://github.com/gurrgur/kwin-effects-kinetic) - kinetic kwin effects
 
 ## 🛑 Apps you might want to avoid
 
