@@ -46,6 +46,7 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
 - `ufw` **or** `firewalld` - firewall support
 - `fwupd` - adds ability to update your device's firmware from [Discover](https://apps.kde.org/discover) or *Info Center*<sup>(installs by default in plasma)</sup>
 - `quota-tools` - applet for [Disk Quota](https://en.wikipedia.org/wiki/Disk_quota). You don't really need this
+- `ripgrep` & `ripgrep-all` - Dolphin's search backend when Baloo is disabled
 
 > [!WARNING]
 > The `power-profiles-daemon` works with the CPPC driver, which adjusts CPU frequencies differently than `acpi-cpufreq`. If your processor does not support CPPC (e.g. zen1 or some zen2 CPUs) you can install `tuned` and `tuned-ppd` as replacements for `power-profiles-daemon`. 
