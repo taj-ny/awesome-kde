@@ -228,7 +228,6 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`jamesdsp`](https://github.com/Audio4Linux/JDSP4Linux) - [EasyEffects](https://github.com/wwmm/easyeffects) alternative
 - [`qownnotes`](https://www.qownnotes.org) - notes app
 - [`kwin-effects-kinetic`](https://github.com/gurrgur/kwin-effects-kinetic) - kinetic kwin effects
-- [`plasma5-applets-latte-separator`](https://github.com/psifidotos/applet-latte-separator) - simple but fancy applet separator
 
 ## 🛑 Apps you might want to avoid
 
