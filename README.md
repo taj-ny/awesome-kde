@@ -38,10 +38,19 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
 - `iio-sensor-proxy` - automatic screen rotation. Useful for wearable devices
 - `libappindicator-gtk3` - Tray icon for [GTK3](https://docs.gtk.org/gtk3) apps
 - `maliit-keyboard` - on-screen keyboard
-- `power-profiles-daemon` - enables the power profile functionality in Plasma.  **Please** read the footnote below[^1] 
+- `power-profiles-daemon` - enables the power profile functionality in Plasma.  **Please** read the note below
 - `xdg-desktop-portal-gtk`, `xsettingsd` - sync [GTK](https://en.wikipedia.org/wiki/GTK) font / theme settings with Plasma
 - `orca` - screen reader
 - `systemd-coredumpd` - crash handler
+
+> [!warning] For `power-profiles-daemon` users
+> The `power-profiles-daemon` works with the CPPC driver, which adjusts CPU frequencies differently than `acpi-cpufreq`. If your processor does not support CPPC (e.g. zen1 or some zen2 CPUs) you can install `tuned` and `tuned-ppd` as replacements for `power-profiles-daemon`. 
+> Remember to enable the systemd service for both packages immediately after installation. Reboot is not needed
+> ```bash
+> sudo pacman -S tuned tuned-ppd
+> sudo systemctl enable --now tuned tuned-ppd
+> ```
+
 
 ### 🖼️ Thumbnailing plugins
 
@@ -144,18 +153,18 @@ These are mostly applications that have been in the KDE application catalog for 
 - [`kde-material-you-colors`](https://github.com/luisbocanegra/kde-material-you-colors)<sup>[AUR](https://aur.archlinux.org/packages/kde-material-you-colors)</sup> - Android's Material You color palette for KDE
     - **How To**: *Open Tray Menu > KDE Material You Colors*
     - **How To**: *Right click on the desktop > Add or Manage Widgets > KDE Material You Colors*
-- [`koi`](https://github.com/baduhai/Koi)<sup>[AUR](https://aur.archlinux.org/packages/koi)</sup> - auto light / dark mode switcher. [^2]
-- [`media-downloader`](https://github.com/mhogomchungu/media-downloader)<sup>[AUR](https://aur.archlinux.org/packages/media-downloader)  [^3]</sup> - a universal app for downloading media from a popular sites such as YouTube and others
+- [`koi`](https://github.com/baduhai/Koi)<sup>[AUR](https://aur.archlinux.org/packages/koi)</sup> - auto light / dark mode switcher. [^1]
+- [`media-downloader`](https://github.com/mhogomchungu/media-downloader)<sup>[AUR](https://aur.archlinux.org/packages/media-downloader)  [^2]</sup> - a universal app for downloading media from a popular sites such as YouTube and others
 - [`plasma6-applets-panel-colorizer`](https://github.com/luisbocanegra/plasma-panel-colorizer)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-panel-colorizer)</sup> - customize your panel as you want
 - [`plasma6-applets-wallpaper-effects`](https://github.com/luisbocanegra/plasma-wallpaper-effects)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-wallpaper-effects)</sup> - various wallpaper effects
 - [`plasma6-wallpapers-blurredwallpaper`](https://github.com/bouteillerAlan/blurredwallpaper)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-wallpapers-blurredwallpaper)</sup> - blurs wallpaper when active window is present
     - **How To**: *Right Click on the Desktop > Desktop and Wallpaper > \*choose "Blurred Wallpaper"\* wallpaper plugin > Set blur radius and click "Apply"*
 - [`plasma6-wallpapers-wallpaper-engine-git`](https://github.com/catsout/wallpaper-engine-kde-plugin)<sup>[AUR](https://aur.archlinux.org/packages/plasma6-wallpapers-wallpaper-engine-git)</sup> - [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine) plugin for KDE Plasma
     - **How To**: *Install Wallpaper Engine from Steam, open it and download some wallpapers > Right Click on the Desktop > Desktop and Wallpaper > \*choose wallpaper engine plugin\* > Set Default Steam Folder > apply*
-- [`protonup-qt`](https://github.com/DavidoTek/ProtonUp-Qt)<sup>[AUR](https://aur.archlinux.org/packages/protonup-qt)  [^3]</sup> - install and manage [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom), [Steam Proton](<https://en.wikipedia.org/wiki/Proton_(software)>), [Lutris](https://github.com/lutris/lutris) runners and much more
+- [`protonup-qt`](https://github.com/DavidoTek/ProtonUp-Qt)<sup>[AUR](https://aur.archlinux.org/packages/protonup-qt)  [^2]</sup> - install and manage [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom), [Steam Proton](<https://en.wikipedia.org/wiki/Proton_(software)>), [Lutris](https://github.com/lutris/lutris) runners and much more
 - [`qbittorrent`](https://github.com/qbittorrent/qBittorrent) - cmon man, you know what is this!
 - [`qtpass`](https://github.com/IJHack/QtPass) - a QT wrapper for [pass](https://www.passwordstore.org)
-- [`yin-yang`](https://github.com/oskarsh/Yin-Yang)<sup>[AUR](https://aur.archlinux.org/packages/yin-yang)</sup> - auto light / dark mode switcher[^2]
+- [`yin-yang`](https://github.com/oskarsh/Yin-Yang)<sup>[AUR](https://aur.archlinux.org/packages/yin-yang)</sup> - auto light / dark mode switcher[^1]
 
 ## 🛑 Apps you might want to avoid
 
@@ -168,6 +177,5 @@ Apps that you might want to install, but are pointless because Plasma already ha
     - **Reason**: Plasma has a built-in desktop effect that does the same thing in a more convenient way
     - **How To**: *System Settings > Window Management > Desktop Effects > Zoom Effect*
 
-[^1]: Right after installation enable the `power-profiles-daemon` service. `power-profiles-daemon` works only with pstate drivers, so if your machine doesn't support this, then use `tuned` and `tuned-ppd` instead: `systemctl enable --now tuned tuned-ppd`.
-[^2]: The KDE team wanted to implement this as part of KDE, but apparently we won't see it until at least the release of Plasma 7. [Link](https://discuss.kde.org/t/auto-dark-mode-sunrise-sunset/2415/2).
-[^3]: Available in the [CachyOS](https://cachyos.org) repositories.
+[^1]: The KDE team wanted to implement this as part of KDE, but apparently we won't see it until at least the release of Plasma 7. [Link](https://discuss.kde.org/t/auto-dark-mode-sunrise-sunset/2415/2).
+[^2]: Available in the [CachyOS](https://cachyos.org) repositories.
