@@ -10,6 +10,12 @@ Switching to KDE from GNOME, XFCE, or other environments? If you’ve fallen in 
 
 **Note**: This guide doesn’t cover themes or cursors. For that, visit [this repository](https://github.com/francoism90/awesome-kde).
 
+#### To Do
+
+- [ ] Readability
+- [ ] More small but important details
+- [ ] You tell me
+
 #### Contribute
 
 Suggestions for new apps or categories are welcome! Submit a pull request to improve this guide.
