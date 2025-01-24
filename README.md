@@ -48,6 +48,10 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
 - `quota-tools` - applet for [Disk Quota](https://en.wikipedia.org/wiki/Disk_quota). You don't really need this
 - `ripgrep` & `ripgrep-all` - Dolphin's search backend<sup>([link](https://blogs.kde.org/2024/10/02/use-ripgrep-all-/-ripgrep-to-improve-search-in-dolphin))</sup> when Baloo is disabled
 - `hunspell` & `hunspell-$LOCALE` - Plasma's spell cheking system & dictionaries
+- [`kdeconnect`](https://kdeconnect.kde.org) - seamlessly integrates your phone with Plasma
+    - `sshfs` - allows to browse phone's filesystem
+    - `qt6-tools` - runcommand plugin settings
+    - `krfb` - use remote device as virtual monitor
 
 > [!WARNING]
 > The `power-profiles-daemon` works with the CPPC driver, which adjusts CPU frequencies differently than `acpi-cpufreq`. If your processor does not support CPPC (e.g. zen1 or some zen2 CPUs) you can install `tuned` and `tuned-ppd` as replacements for `power-profiles-daemon`. 
@@ -95,10 +99,6 @@ These are mostly applications that have been in the KDE application catalog for 
 
 - [`filelight`](https://apps.kde.org/filelight) - visual representation of filesystem usage
 - [`isoimagewriter`](https://apps.kde.org/isoimagewriter) - `.iso` image writer. Also try [`ventoy`](https://github.com/ventoy/Ventoy)
-- [`kdeconnect`](https://kdeconnect.kde.org) - seamlessly integrates your phone with Plasma
-    - `sshfs` - allows to browse phone's filesystem
-    - `qt6-tools` - runcommand plugin settings
-    - `krfb` - use remote device as virtual monitor
 - [`kfind`](https://apps.kde.org/kfind) - simple but fast file searching
     - `mlocate`<sup>(orphaed?)</sup> - search using mlocate index
 - [`kgpg`](https://apps.kde.org/kgpg) - GPG keys management
