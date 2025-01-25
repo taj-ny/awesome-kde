@@ -150,6 +150,7 @@ These are mostly applications that have been in the KDE application catalog for 
     - `ntfs-3g` <sup><sup>⚙️</sup></sup> — [NTFS](https://en.wikipedia.org/wiki/NTFS) support
     - `xfsprogs` <sup><sup>⚙️</sup></sup> — [XFS](https://en.wikipedia.org/wiki/XFS) support
 - `sweeper` <sup>([link](https://apps.kde.org/sweeper))✔️</sup> — simple but not really powerful cache cleaner
+- `systemdgenie` <sup>([link](https://invent.kde.org/system/systemdgenie))✔️</sup> — GUI systemd managment utility
 - `yakuake` <sup>([link](https://apps.kde.org/yakuake))✔️</sup> — drop-down terminal | 👍
 
 ### 📽️ Multimedia / 💾 Downloads
