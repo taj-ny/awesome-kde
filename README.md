@@ -71,6 +71,8 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
     - 💡- *System Settings > Backups*
 - `kcm-grub2-git` <sup>([link](https://invent.kde.org/system/kcm-grub2))✔️ <sup>[AUR](https://aur.archlinux.org/packages/kcm-grub2-git)</sup></sup> — configure and manage the GRUB bootloader **right in the System Settings**. ***NOTE***: install the `packagekit-qt6`, otherwise KCM module will not work
     - 💡- *System Settings > Session > GRUB2 Bootloader*
+- `kcron` <sup>([link](https://apps.kde.org/kcron))✔️</sup> — configure and schedule cron tasks **right in the System Settings**
+    - 💡- *System Settings > Session > Task Scheduler*
 
 > [!WARNING]
 > The `power-profiles-daemon` works with the [CPPC](https://docs.kernel.org/admin-guide/acpi/cppc_sysfs.html) driver, which adjusts CPU frequencies differently than `acpi-cpufreq`. If your processor does not support CPPC (e.g. zen1 or some zen2 CPUs) you can install `tuned` and `tuned-ppd` as replacements for `power-profiles-daemon`. 
