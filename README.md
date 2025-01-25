@@ -291,6 +291,9 @@ These are mostly applications that have been in the KDE application catalog for 
 - `kdiskmark` <sup>([link](https://github.com/JonMagon/KDiskMark))</sup> — a [CrystalDiskMark](https://sourceforge.net/projects/crystaldiskmark) alternative for Linux
 - `bleachbit` <sup>([link](https://github.com/bleachbit/bleachbit))</sup> — a powerful cache cleaner. Even though it is not a QT application, it is still very useful and crucial in desktop use
 - `konsave`  <sup>([link](https://github.com/Prayag2/konsave)) <sup>[AUR](https://aur.archlinux.org/packages/konsave)</sup></sup> — a backup tool designed for KDE Plasma
+- `apdatifier` <sup>([link](https://github.com/exequtic/apdatifier))<sup>(no packages available)</sup></sup> — applet for managing Arch Linux updates (including AUR)
+    - **Depends on**: `pacman-contrib` `curl` `jq` `unzip` `tar` `fzf`
+- `plasma6-applets-arch-update-notifier` <sup>([link](https://github.com/bouteillerAlan/archupdate)) <sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-arch-update-notifier)</sup></sup> — yet another one applet for managing Arch Linux updates
 
 ### 📚 Office / ⏰ Productivity / 📝 Work
 
