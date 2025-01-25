@@ -216,7 +216,7 @@ These are mostly applications that have been in the KDE application catalog for 
 
 ### 💫 Other
 
-- `alpaka` <sup>([link](https://apps.kde.org/alpaka))✔️ <sup>[AUR](https://aur.archlinux.org/packages/alpaka-git)</sup> — GUI frontend for [Ollama](https://ollama.com). **Note**: still in development
+- `alpaka` <sup>([link](https://apps.kde.org/alpaka))✔️ </sup>[AUR](https://aur.archlinux.org/packages/alpaka-git)</sup> — GUI frontend for [Ollama](https://ollama.com). **Note**: still in development
 - `kcharselect` <sup>([link](https://apps.kde.org/kcharselect))✔️</sup> — unicode character picker
 - `kclock` <sup>([link](https://apps.kde.org/kclock))✔️</sup> — simple clock app for KDE Plasma / Plasma Mobile | 👍
 - `kmousetool` <sup>([link](https://apps.kde.org/kmousetool))✔️</sup> — mouse auto clicker
