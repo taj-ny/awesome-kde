@@ -127,6 +127,7 @@ These are mostly applications that have been in the KDE application catalog for 
 
 - `filelight` <sup>([link](https://apps.kde.org/filelight))✔️</sup> — disk usage visualizer | 👍
 - `isoimagewriter` <sup>([link](https://apps.kde.org/isoimagewriter))✔️</sup> — disk image writer. Also try [`ventoy`](https://github.com/ventoy/Ventoy)
+- `kdiskfree` <sup>([link](https://apps.kde.org/kdf))✔️</sup> — view disk usage
 - `kfing` <sup>([link](https://apps.kde.org/kfind))✔️</sup> — simple but fast file searching
     - `mlocate` <sup>([link](https://pagure.io/mlocate))  <sup>[AUR](https://aur.archlinux.org/packages/mlocate-git)</sup> <sup><sup>abandoned?</sup></sup></sup> — search using mlocate index
 - `kgpg` <sup>([link](https://apps.kde.org/kgpg))✔️</sup> — GPG keys management | 👍
