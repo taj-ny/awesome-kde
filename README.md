@@ -193,6 +193,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - `kalk` <sup>([link](https://apps.kde.org/kalk))✔️</sup> — calculator
 - `kcalc` <sup>([link](https://apps.kde.org/kcalc))✔️</sup> — calculator as well | 👍
 - `kcolorchooser` <sup>([link](https://apps.kde.org/kcolorchooser))✔️</sup> — simple color picker
+- `karp` <sup>([link](https://apps.kde.org/karp))✔️</sup> — PDF editor. **Note**: still in development
 - `kdenlive` <sup>([link](https://apps.kde.org/kdenlive))✔️</sup> — powerful video editor | 👍
     - `bigsh0t`<sup><sup>⚙️</sup></sup> — VR360 effects
     - `dvgrab`<sup><sup>⚙️</sup></sup> — firewire capture
