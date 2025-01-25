@@ -246,6 +246,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - `nota` <sup>([link](https://apps.kde.org/nota))✔️<sup>[AUR](https://aur.archlinux.org/packages/nota)</sup></sup> — simple text editor for KDE Plasma / [Plasma Mobile](https://plasma-mobile.org)
 - `kdialog` <sup>([link](https://develop.kde.org/docs/administration/kdialog))✔️</sup> — [`zenity`](https://en.wikipedia.org/wiki/Zenity) and [`yad`](https://github.com/v1cont/yad) alternative | 👍
 - `khelpcenter` <sup>([link](https://apps.kde.org/khelpcenter))✔️</sup> — offline (F1 shortcut by default) documentation for KDE apps
+- `optiimage` <sup>([link](https://apps.kde.org/optiimage))✔️</sup> — image compressor
 
 ## 🧑‍🤝‍🧑 Third-party applications that were made (not) for KDE 
 
