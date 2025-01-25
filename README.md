@@ -303,6 +303,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - `jamesdsp` <sup>([link](https://github.com/Audio4Linux/JDSP4Linux)) <sup>[AUR](https://aur.archlinux.org/packages/jamesdsp)</sup></sup> — an [EasyEffects](https://github.com/wwmm/easyeffects) alternative
 - `media-downloader` <sup>([link](https://github.com/mhogomchungu/media-downloader)) <sup>[AUR](https://aur.archlinux.org/packages/media-downloader)</sup></sup> — a cross-platform app for downloading media from a popular sites such as YouTube and others | 👍👍👍
     - `aria2`<sup><sup>⚙️</sup></sup> - [aria2](https://github.com/aria2/aria2) backend
+- `plasma-manager` <sup>([link](https://github.com/nix-community/plasma-manager)) <sup>(not an Arch Linux package / tool)</sup></sup> — Home Manager module for KDE Plasma
 
 ## 🛑 Apps you might want to avoid
 
