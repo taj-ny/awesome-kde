@@ -208,6 +208,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - `kile` <sup>([link](https://apps.kde.org/kile))✔️</sup> — [LaTex](https://en.wikipedia.org/wiki/LaTeX) editor
 - `klevernotes` <sup>([link](https://apps.kde.org/klevernotes))✔️ <sup>[AUR](https://aur.archlinux.org/packages/klevernotes)</sup></sup> — note taking app
 - `kolourpaint` <sup>([link](https://apps.kde.org/kolourpaint))✔️</sup> — simple paint app, similiar to Windows's one
+- `kphotoalbum` <sup>([link](https://apps.kde.org/kphotoalbum))✔️</sup> — photo management tool (tags, collections and more)
 - `okular` <sup>([link](https://apps.kde.org/okular))✔️</sup> — PDF reader on steroids | 👍👍👍
      - `ebook-tools`<sup><sup>⚙️</sup></sup> — mobi and epub support
      - `kdegraphics-mobipocket`<sup><sup>⚙️</sup></sup> — mobi support
