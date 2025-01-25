@@ -277,7 +277,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - `kwin-effects-forceblur` <sup>([link](https://github.com/taj-ny/kwin-effects-forceblur)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-effects-forceblur)</sup></sup> — self-explanatory
 - `kwin-effects-forceblur` <sup>([link](https://github.com/taj-ny/kwin-effects-forceblur)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-effects-forceblur)</sup></sup> — force blur with rounded corners
 - `kwin-effects-kinetic` <sup>([link](https://github.com/gurrgur/kwin-effects-kinetic)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-effects-kinetic)</sup></sup> — kinetic kwin effects | 👍👍👍
-- `kwin4_effect_geometry_change` <sup>([link](https://github.com/peterfajdiga/kwin4_effect_geometry_change))</sup> — animations for windows moved or resized by programs and scripts
+- `kwin4_effect_geometry_change` <sup>([link](https://github.com/peterfajdiga/kwin4_effect_geometry_change)) <sup>(no packages available)</sup></sup> — animations for windows moved or resized by programs and scripts
 - `kwin-scripts-krohnkite` <sup>([link](https://github.com/anametologin/krohnkite)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-scripts-krohnkite-git)</sup></sup> — dynamic window tiling
 - `kwin-scripts-mudeer` <sup>([link](https://github.com/darkstego/Mudeer)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-scripts-mudeer)</sup></sup> — virtual screen splitting
 - `kwin-polonium` <sup>([link](https://github.com/zeroxoneafour/polonium)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-polonium) </sup></sup> — tiling manager for Plasma 6
