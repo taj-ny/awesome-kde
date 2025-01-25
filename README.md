@@ -279,6 +279,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - `kwin-polonium` <sup>([link](https://github.com/zeroxoneafour/polonium)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-polonium) </sup></sup> — tiling manager for Plasma 6
 - `chatgpt-plasmoid` <sup>([link](https://github.com/dark-eye/com.darkeye.chatGPT)) <sup>(no packages available)</sup></sup> — [ChatGPT](https://chatgpt.com) plasmoid
 - `ditto-menu` <sup>([link](https://github.com/adhec/dittoMenuKDE)) <sup>(no packages available)</sup></sup> — a Windows 11-like application launcher
+- `krunner-translator` <sup>([link](https://github.com/rizutazu/krunner-translator))<sup>(no packages available)</sup></sup> — a Google Translate plugin for krunner
 
 ### 📈 Administration / 📊 System monitoring
 
