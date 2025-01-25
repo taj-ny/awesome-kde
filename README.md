@@ -272,6 +272,7 @@ These are mostly applications that have been in the KDE application catalog for 
     - 💡 - *Right click on the desktop > Add or Manage Widgets > KDE Material You Colors*
 - `kando` <sup>([link](https://github.com/kando-menu/kando)) <sup>[AUR](https://aur.archlinux.org/packages/kando-bin)</sup></sup> — a nice looking cross-platform pie menu
 - `kwin-effect-rounded-corners` <sup>([link](https://github.com/matinlotfali/KDE-Rounded-Corners)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-effect-rounded-corners-git)</sup></sup> — rounded window corners with outlines and shadow interpolation
+- `kwin-effects-forceblur` <sup>([link](https://github.com/taj-ny/kwin-effects-forceblur)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-effects-forceblur)</sup></sup> — self-explanatory
 - `kwin-effects-forceblur` <sup>([link](https://github.com/taj-ny/kwin-effects-forceblur)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-effects-forceblur)</sup></sup> — force blur with rounded corners
 - `kwin-effects-kinetic` <sup>([link](https://github.com/gurrgur/kwin-effects-kinetic)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-effects-kinetic)</sup></sup> — kinetic kwin effects | 👍👍👍
 - `kwin4_effect_geometry_change` <sup>([link](https://github.com/peterfajdiga/kwin4_effect_geometry_change))</sup> — animations for windows moved or resized by programs and scripts
