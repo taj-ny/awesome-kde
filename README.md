@@ -13,8 +13,8 @@ Switching to KDE from GNOME, XFCE, or other environments? If you’ve fallen in 
 
 #### To Do
 
-- [ ] Readability
-- [ ] More small but important details
+- [x] Readability
+- [x] More small but important details
 - [ ] Install script for different distributions
 - [ ] You tell me
 
@@ -130,6 +130,7 @@ These are mostly applications that have been in the KDE application catalog for 
     - `exfatprogs` <sup><sup>⚙️</sup></sup> — [exFAT](https://en.wikipedia.org/wiki/ExFAT) support
     - `ntfs-3g` <sup><sup>⚙️</sup></sup> — [NTFS](https://en.wikipedia.org/wiki/NTFS) support
     - `xfsprogs` <sup><sup>⚙️</sup></sup> — [XFS](https://en.wikipedia.org/wiki/XFS) support
+- `sweeper` <sup>([link](https://apps.kde.org/sweeper))✔️</sup> — simple but not really powerful cache cleaner
 - `yakuake` <sup>([link](https://apps.kde.org/yakuake))✔️</sup> — drop-down terminal | 👍
 
 ### 📽️ Multimedia / 💾 Downloads
@@ -226,7 +227,7 @@ These are mostly applications that have been in the KDE application catalog for 
 
 ## 🧑‍🤝‍🧑 Third-party applications that were made (not) for KDE 
 
-### Plasma components / effects
+### ✨ Plasma components / effects
 
 - `plasma6-applets-panel-colorizer` <sup>([link](https://github.com/luisbocanegra/plasma-panel-colorizer)) <sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-panel-colorizer)</sup></sup> — customize your panel as you want
     - 💡 - *Right Click on the Desktop > Add or Manage Widgets > drag the widget to one of your panels > right click on the widget > configure*
@@ -251,6 +252,7 @@ These are mostly applications that have been in the KDE application catalog for 
 ### 📈 Administration / 📊 System monitoring
 
 - `kdiskmark` <sup>([link](https://github.com/JonMagon/KDiskMark))</sup> — a [CrystalDiskMark](https://sourceforge.net/projects/crystaldiskmark) alternative for Linux
+- `bleachbit` <sup>([link](https://github.com/bleachbit/bleachbit))</sup> — a powerful cache cleaner. Even though it is not a QT application, it is still very useful and crucial in desktop use
 
 ### 📚 Office / ⏰ Productivity / 📝 Work
 
