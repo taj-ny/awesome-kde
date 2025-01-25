@@ -121,6 +121,13 @@ These are mostly applications that have been in the KDE application catalog for 
 - `kgpg` <sup>([link](https://apps.kde.org/kgpg))✔️</sup> — GPG keys management | 👍
     - **Note**: also allows you to encrypt files via the [Dolphin's](https://apps.kde.org/dolphin) context menu
 - `kjournald` <sup>([link](https://invent.kde.org/system/kjournald))✔️</sup> — view and manage [journalctl](https://www.freedesktop.org/software/systemd/man/journalctl.html) logs
+- `krusader` <sup>([link](https://apps.kde.org/krusader))✔️</sup> — twin pannel (commander style) file manager
+    - `keditbookmarks`<sup><sup>⚙️</sup></sup> — bookmark management
+    - `kde-cli-tools`<sup><sup>⚙️</sup></sup> — file associations & root mode
+    - `kdiff3`<sup><sup>⚙️</sup></sup> — file contents comparison
+    - `krename`<sup><sup>⚙️</sup></sup> — advanced file rename
+    - `konsolepart`<sup><sup>⚙️</sup></sup> — terminal support
+    - `ktexteditor`<sup><sup>⚙️</sup></sup> — file editing support
 - `ksystemlog` <sup>([link](https://apps.kde.org/ksystemlog))✔️</sup> — view and manage kernel, xorg and other system logs
 - `kwalletmanager` <sup>([link](https://apps.kde.org/kwalletmanager5))✔️</sup> — password management GUI
 - `partitionmanager` <sup>([link](https://apps.kde.org/partitionmanager))✔️</sup> — *"[GParted](https://gparted.org) by KDE"* | 👍
