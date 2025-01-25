@@ -284,6 +284,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - `chatgpt-plasmoid` <sup>([link](https://github.com/dark-eye/com.darkeye.chatGPT)) <sup>(no packages available)</sup></sup> — [ChatGPT](https://chatgpt.com) plasmoid
 - `ditto-menu` <sup>([link](https://github.com/adhec/dittoMenuKDE)) <sup>(no packages available)</sup></sup> — a Windows 11-like application launcher
 - `krunner-translator` <sup>([link](https://github.com/rizutazu/krunner-translator))<sup>(no packages available)</sup></sup> — a Google Translate plugin for krunner
+- `fancytasks` <sup>([link](https://github.com/alexankitty/FancyTasks)) <sup>[AUR](https://aur.archlinux.org/packages/fancytasks)</sup></sup> — A Plsama's "Icons-Only Task Manager" on steroids
 
 ### 📈 Administration / 📊 System monitoring
 
