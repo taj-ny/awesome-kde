@@ -254,6 +254,8 @@ These are mostly applications that have been in the KDE application catalog for 
 
 ### ✨ Plasma components / effects
 
+💡- for kwin scripts: *System Settings > Window Management > KWin Scripts*
+
 - `plasma6-applets-panel-colorizer` <sup>([link](https://github.com/luisbocanegra/plasma-panel-colorizer)) <sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-panel-colorizer)</sup></sup> — customize your panel as you want
     - 💡 - *Right Click on the Desktop > Add or Manage Widgets > drag the widget to one of your panels > right click on the widget > configure*
 - `plasma6-applets-wallpaper-effects` <sup>([link](https://github.com/luisbocanegra/plasma-wallpaper-effects)) <sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-wallpaper-effects)</sup></sup> — various wallpaper effects | 👍
@@ -277,6 +279,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - `kwin-effects-kinetic` <sup>([link](https://github.com/gurrgur/kwin-effects-kinetic)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-effects-kinetic)</sup></sup> — kinetic kwin effects | 👍👍👍
 - `kwin4_effect_geometry_change` <sup>([link](https://github.com/peterfajdiga/kwin4_effect_geometry_change))</sup> — animations for windows moved or resized by programs and scripts
 - `kwin-scripts-krohnkite` <sup>([link](https://github.com/anametologin/krohnkite)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-scripts-krohnkite-git)</sup></sup> — dynamic window tiling
+- `kwin-scripts-mudeer` <sup>([link](https://github.com/darkstego/Mudeer)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-scripts-mudeer)</sup></sup> — virtual screen splitting
 - `kwin-polonium` <sup>([link](https://github.com/zeroxoneafour/polonium)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-polonium) </sup></sup> — tiling manager for Plasma 6
 - `chatgpt-plasmoid` <sup>([link](https://github.com/dark-eye/com.darkeye.chatGPT)) <sup>(no packages available)</sup></sup> — [ChatGPT](https://chatgpt.com) plasmoid
 - `ditto-menu` <sup>([link](https://github.com/adhec/dittoMenuKDE)) <sup>(no packages available)</sup></sup> — a Windows 11-like application launcher
