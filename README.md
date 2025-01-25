@@ -244,6 +244,10 @@ These are mostly applications that have been in the KDE application catalog for 
 - `kando` <sup>([link](https://github.com/kando-menu/kando)) <sup>[AUR](https://aur.archlinux.org/packages/kando-bin)</sup></sup> — a nice looking cross-platform pie menu
 - `kwin-effects-kinetic` <sup>([link](https://github.com/gurrgur/kwin-effects-kinetic)) <sup>[AUR](https://aur.archlinux.org/packages/kwin-effects-kinetic)</sup></sup> — kinetic kwin effects | 👍👍👍
 
+### 📈 Administration / 📊 System monitoring
+
+- `kdiskmark` <sup>([link](https://github.com/JonMagon/KDiskMark))</sup> — a [CrystalDiskMark](https://sourceforge.net/projects/crystaldiskmark) alternative for Linux
+
 ### 📚 Office / ⏰ Productivity / 📝 Work
 
 - `qtpass` <sup>([link](https://github.com/IJHack/QtPass))</sup> — a QT wrapper for [pass](https://www.passwordstore.org) | 👍👍👍
