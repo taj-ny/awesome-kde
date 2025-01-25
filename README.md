@@ -121,6 +121,7 @@ These are mostly applications that have been in the KDE application catalog for 
 - `kgpg` <sup>([link](https://apps.kde.org/kgpg))✔️</sup> — GPG keys management | 👍
     - **Note**: also allows you to encrypt files via the [Dolphin's](https://apps.kde.org/dolphin) context menu
 - `kjournald` <sup>([link](https://invent.kde.org/system/kjournald))✔️</sup> — view and manage [journalctl](https://www.freedesktop.org/software/systemd/man/journalctl.html) logs
+- `kommit` <sup>([link](https://apps.kde.org/kommit))✔️</sup> — git GUI frontend
 - `krusader` <sup>([link](https://apps.kde.org/krusader))✔️</sup> — twin pannel (commander style) file manager
     - `keditbookmarks`<sup><sup>⚙️</sup></sup> — bookmark management
     - `kde-cli-tools`<sup><sup>⚙️</sup></sup> — file associations & root mode
