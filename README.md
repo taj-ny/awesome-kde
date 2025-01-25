@@ -241,6 +241,7 @@ These are mostly applications that have been in the KDE application catalog for 
     - 💡 - *Right Click on the Desktop > Add or Manage Widgets > drag the widget to one of your panels > right click on the widget > configure*
 - `plasma6-applets-wallpaper-effects` <sup>([link](https://github.com/luisbocanegra/plasma-wallpaper-effects)) <sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-wallpaper-effects)</sup></sup> — various wallpaper effects | 👍
     - 💡 - *Right Click on the Desktop > Add or Manage Widgets > select the widget and drag it to the desktop*
+- `plasma6-applets-panon` <sup>([link](https://github.com/rbn42/panon)) <sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-panon)</sup></sup> — an audio visualizer widget
 - `plasma6-wallpapers-blurredwallpaper` <sup>([link](https://github.com/bouteillerAlan/blurredwallpaper)) <sup>[AUR](https://aur.archlinux.org/packages/plasma6-wallpapers-blurredwallpaper)</sup></sup> — blurs wallpaper when active window is present | 👍👍
     - 💡 - *Right Click on the Desktop > Desktop and Wallpaper > \*choose "Blurred Wallpaper"\* wallpaper plugin > Set blur radius and click "Apply"*
 - `plasma6-wallpapers-wallpaper-engine-git` <sup>([link](https://github.com/catsout/wallpaper-engine-kde-plugin)) <sup>[AUR](https://aur.archlinux.org/packages/plasma6-wallpapers-wallpaper-engine-git)</sup></sup> — [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine) plugin for KDE Plasma | 👍👍
