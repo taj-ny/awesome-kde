@@ -60,6 +60,7 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
 - `ripgrep` <sup>([link](https://github.com/BurntSushi/ripgrep))</sup> **and** `ripgrep-all` <sup>([link](https://github.com/phiresky/ripgrep-all))</sup> — [Dolphin's](https://apps.kde.org/dolphin) search backend <sup>([link](https://blogs.kde.org/2024/10/02/use-ripgrep-all-/-ripgrep-to-improve-search-in-dolphin))</sup> when Baloo is disabled
 - `hunspell` <sup>([link](https://github.com/hunspell/hunspell))</sup> **and** `hunspell-$LOCALE` — Plasma's spell cheking system & dictionaries
 - `krfb` (itself) <sup>([link](https://apps.kde.org/krfb))✔️</sup> — remote desktop sharing
+- `symmy-git` <sup>([link](https://invent.kde.org/utilities/symmy))✔️ <sup>[AUR](https://aur.archlinux.org/packages/symmy-git)</sup></sup> — encrpyt and decrypt local files in Dolphin's context menu
 
 #### ⚙️ KCM Modules
 
