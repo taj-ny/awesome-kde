@@ -261,6 +261,7 @@ These are mostly applications that have been in the KDE application catalog for 
 
 - `kdiskmark` <sup>([link](https://github.com/JonMagon/KDiskMark))</sup> — a [CrystalDiskMark](https://sourceforge.net/projects/crystaldiskmark) alternative for Linux
 - `bleachbit` <sup>([link](https://github.com/bleachbit/bleachbit))</sup> — a powerful cache cleaner. Even though it is not a QT application, it is still very useful and crucial in desktop use
+- `konsave`  <sup>([link](https://github.com/Prayag2/konsave)) <sup>[AUR](https://aur.archlinux.org/packages/konsave)</sup></sup> — a backup tool designed for KDE Plasma
 
 ### 📚 Office / ⏰ Productivity / 📝 Work
 
