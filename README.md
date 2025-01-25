@@ -78,8 +78,8 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
     - 💡- *System Settings > Backups*
 
 > [!WARNING]
-> The `power-profiles-daemon` works with the [CPPC](https://docs.kernel.org/admin-guide/acpi/cppc_sysfs.html) driver, which adjusts CPU frequencies differently than `acpi-cpufreq`. If your processor does not support CPPC (e.g. zen1 or some zen2 CPUs) you can install `tuned` and `tuned-ppd` as replacements for `power-profiles-daemon`. 
-> Remember to enable the systemd service for both packages immediately after installation. Reboot is not needed
+> The `power-profiles-daemon` uses the [CPPC](https://docs.kernel.org/admin-guide/acpi/cppc_sysfs.html) driver to manage CPU frequencies, unlike `acpi-cpufreq`. For CPUs without CPPC support (e.g., Zen 1 or some Zen 2 models), use `tuned` and `tuned-ppd` instead. 
+> Remember to enable the systemd service for both packages immediately after installation. Reboot is not required
 > ```bash
 > sudo pacman -S tuned tuned-ppd
 > sudo systemctl enable --now tuned tuned-ppd
