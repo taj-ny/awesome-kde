@@ -43,7 +43,6 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
 - `kde-inotify-survey` <sup>([link](https://github.com/KDE/kde-inotify-survey))✔️ </sup> — a diagnostic tool to check the availability and limits of inotify, a Linux kernel feature for monitoring filesystem events
 - `kdenetwork-filesharing` <sup>([link](https://apps.kde.org/kdenetwork_filesharing))✔️</sup> — provide easily sharing files and directories over the network. **Note**: still in development
 - `kio-extras` <sup>([link](https://github.com/KDE/kio-extras))✔️</sup>, `kio-fuse` <sup>([link](https://github.com/KDE/kio-fuse))✔️</sup>, `kio-gdrive` <sup>([link](https://apps.kde.org/kio_gdrive))✔️</sup>, `kio-admin` <sup>([link](https://github.com/KDE/kio-admin))✔️</sup> — provide seamless access to remote filesystems, cloud storage (e.g., Google Drive), network protocols, and administrative file management in KDE applications and beyond
-- `kwalletmanager` <sup>([link](https://apps.kde.org/nl/kwalletmanager5))✔️</sup> — [KWallet's](https://en.wikipedia.org/wiki/KWallet) [KCM](https://develop.kde.org/docs/features/configuration/kcm) module
 - `xwaylandvideobridge` <sup>([link](https://github.com/KDE/xwaylandvideobridge))✔️</sup> —  Utility to allow streaming [Wayland](https://en.wikipedia.org/wiki/Wayland_(protocol)) windows to [X](https://en.wikipedia.org/wiki/X_Window_System) applications
 - `iio-sensor-proxy` <sup>([link](https://gitlab.freedesktop.org/hadess/iio-sensor-proxy))</sup> — automatic screen rotation. Useful for wearable devices
 - `libappindicator-gtk3` — tray icon for [GTK3](https://docs.gtk.org/gtk3) apps
@@ -60,19 +59,23 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
 - `quota-tools` <sup>([link](https://sourceforge.net/projects/linuxquota))</sup> — applet for [Disk Quota](https://en.wikipedia.org/wiki/Disk_quota). You don't really need this
 - `ripgrep` <sup>([link](https://github.com/BurntSushi/ripgrep))</sup> **and** `ripgrep-all` <sup>([link](https://github.com/phiresky/ripgrep-all))</sup> — [Dolphin's](https://apps.kde.org/dolphin) search backend <sup>([link](https://blogs.kde.org/2024/10/02/use-ripgrep-all-/-ripgrep-to-improve-search-in-dolphin))</sup> when Baloo is disabled
 - `hunspell` <sup>([link](https://github.com/hunspell/hunspell))</sup> **and** `hunspell-$LOCALE` — Plasma's spell cheking system & dictionaries
-- `kdeconnect` <sup>([link](https://kdeconnect.kde.org))✔️</sup> — seamlessly integrates your phone and other devices with Plasma
-    - `sshfs` <sup>([link](https://github.com/libfuse/sshfs))⚙️</sup> — allows to browse phone's filesystem
-    - `qt6-tools` — runcommand plugin settings
-    - `krfb` <sup>([link](https://apps.kde.org/krfb))✔️</sup> — use remote device as virtual monitor
 - `krfb` (itself) <sup>([link](https://apps.kde.org/krfb))✔️</sup> — remote desktop sharing
-- `kup` <sup>([link](https://invent.kde.org/system/kup))✔️</sup> — a backup tool with ability to backup files to attached USB drive or over network
-    - `bup` <sup><sup>⚙️</sup></sup> — git packfile support
-    - `rsync` <sup><sup>⚙️</sup></sup> 
-    - 💡- *System Settings > Backups*
+
+#### ⚙️ KCM Modules
+
+- `kdeconnect` <sup>([link](https://kdeconnect.kde.org))✔️</sup> — seamlessly integrates your phone and other devices with Plasma
+    - `sshfs`<sup><sup>⚙️</sup></sup> <sup>([link](https://github.com/libfuse/sshfs))</sup> — allows to browse phone's filesystem
+    - `qt6-tools`<sup><sup>⚙️</sup></sup> — runcommand plugin settings
+    - `krfb`<sup><sup>⚙️</sup></sup> <sup>([link](https://apps.kde.org/krfb))✔️</sup> — use remote device as virtual monitor
 - `kcm-grub2-git` <sup>([link](https://invent.kde.org/system/kcm-grub2))✔️ <sup>[AUR](https://aur.archlinux.org/packages/kcm-grub2-git)</sup></sup> — configure and manage the GRUB bootloader **right in the System Settings**. ***NOTE***: install the `packagekit-qt6`, otherwise KCM module will not work
     - 💡- *System Settings > Session > GRUB2 Bootloader*
 - `kcron` <sup>([link](https://apps.kde.org/kcron))✔️</sup> — configure and schedule cron tasks **right in the System Settings**
     - 💡- *System Settings > Session > Task Scheduler*
+- `kwalletmanager` <sup>([link](https://apps.kde.org/nl/kwalletmanager5))✔️</sup> — [KWallet's](https://en.wikipedia.org/wiki/KWallet) [KCM](https://develop.kde.org/docs/features/configuration/kcm) module
+- `kup` <sup>([link](https://invent.kde.org/system/kup))✔️</sup> — a backup tool with ability to backup files to attached USB drive or over network
+    - `bup` <sup><sup>⚙️</sup></sup> — git packfile support
+    - `rsync` <sup><sup>⚙️</sup></sup> 
+    - 💡- *System Settings > Backups*
 
 > [!WARNING]
 > The `power-profiles-daemon` works with the [CPPC](https://docs.kernel.org/admin-guide/acpi/cppc_sysfs.html) driver, which adjusts CPU frequencies differently than `acpi-cpufreq`. If your processor does not support CPPC (e.g. zen1 or some zen2 CPUs) you can install `tuned` and `tuned-ppd` as replacements for `power-profiles-daemon`. 
