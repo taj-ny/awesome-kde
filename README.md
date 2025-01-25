@@ -248,6 +248,7 @@ These are mostly applications that have been in the KDE application catalog for 
     - 💡 - *Install Wallpaper Engine from Steam, open it and download some wallpapers > Right Click on the Desktop > Desktop and Wallpaper > \*choose wallpaper engine plugin\* > Set Default Steam Folder > apply*
 - `plasma6-applets-weather-widget-3-git` <sup>([link](https://github.com/blackadderkate/weather-widget-2)) <sup>[AUR](https://aur.archlinux.org/packages/plasma6-applets-weather-widget-3-git)</sup></sup> — simple weather widget, that live in the taskbar / tray | 👍👍
     - 💡 - *Right click on the desktop > Add or Manage Widgets > \*drag the widget into the taskbar\* > \*configure by right clicking\**
+- `kde-shader-wallaper` <sup>([link](https://github.com/y4my4my4m/kde-shader-wallpaper/tree/plasma6)) <sup>(no packages available)</sup></sup> — self-explanatory. This is worth your look
 - `kde-material-you-colors` <sup>([link](https://github.com/luisbocanegra/kde-material-you-colors)) <sup>[AUR](https://aur.archlinux.org/packages/kde-material-you-colors)</sup></sup> — Android's Material You color palette for KDE | 👍👍👍
     - 💡 - *Open Tray Menu > KDE Material You Colors*
     - 💡 - *Right click on the desktop > Add or Manage Widgets > KDE Material You Colors*
