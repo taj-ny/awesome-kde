@@ -65,6 +65,10 @@ If you use for example [KDE Neon](https://neon.kde.org), [Fedora KDE Spin](https
     - `qt6-tools` — runcommand plugin settings
     - `krfb` <sup>([link](https://apps.kde.org/krfb))✔️</sup> — use remote device as virtual monitor
 - `krfb` (itself) <sup>([link](https://apps.kde.org/krfb))✔️</sup> — remote desktop sharing
+- `kup` <sup>([link](https://invent.kde.org/system/kup))✔️</sup> — a backup tool with ability to backup files to attached USB drive or over network
+    - `bup` <sup><sup>⚙️</sup></sup> — git packfile support
+    - `rsync` <sup><sup>⚙️</sup></sup> 
+    - 💡- *System Settings > Backups*
 
 > [!WARNING]
 > The `power-profiles-daemon` works with the [CPPC](https://docs.kernel.org/admin-guide/acpi/cppc_sysfs.html) driver, which adjusts CPU frequencies differently than `acpi-cpufreq`. If your processor does not support CPPC (e.g. zen1 or some zen2 CPUs) you can install `tuned` and `tuned-ppd` as replacements for `power-profiles-daemon`. 
