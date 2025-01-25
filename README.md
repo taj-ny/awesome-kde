@@ -1,7 +1,7 @@
 
 # Essential Packages For Complete KDE Plasma Experience
 
-![Screenshot_20250124_182446](https://github.com/user-attachments/assets/4d22b92e-5935-468c-8b8b-fdf2ed4ced17)
+![Screenshot_20250125_104714](https://github.com/user-attachments/assets/7a6ba60b-8db6-44ad-bb46-9dfa84cb235f)
 
 This list highlights KDE and KDE-adjacent applications likely to enhance your KDE Plasma experience. All package names are specific to Arch-based distributions, but links to each application’s homepage provide further details.
 
